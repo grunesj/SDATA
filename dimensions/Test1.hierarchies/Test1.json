@@ -1,0 +1,264 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Test1",
+	"Elements":
+	[
+		{
+			"Name":"Group",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Total Items",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Item26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item24",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Group",
+			"ComponentName":"Item4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Group",
+			"ComponentName":"Item5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Group",
+			"ComponentName":"Item6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Group",
+			"ComponentName":"Item1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Group",
+			"ComponentName":"Item26",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item20",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item22",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item23",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item24",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

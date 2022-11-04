@@ -1,0 +1,87 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Groups",
+	"Elements":
+	[
+		{
+			"Name":"Item1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Item8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Items",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Items",
+			"ComponentName":"Item8",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

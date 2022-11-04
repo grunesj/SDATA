@@ -1,0 +1,20 @@
+{
+	"@type":"Hierarchy",
+	"Name":"ERCO_Rechnungslegung",
+	"Elements":
+	[
+		{
+			"Name":"HGB",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IFRS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GAAP",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

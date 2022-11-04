@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"PCProductionResources",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('PCVersion')"
+		},
+		{
+			"@id":"Dimensions('PCCustomerGroup')"
+		},
+		{
+			"@id":"Dimensions('PCMaterial')"
+		},
+		{
+			"@id":"Dimensions('PCPreductionRecource')"
+		}
+	],
+	"Views@Code.links":[]
+}

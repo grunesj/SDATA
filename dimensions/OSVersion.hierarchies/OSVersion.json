@@ -1,0 +1,12 @@
+{
+	"@type":"Hierarchy",
+	"Name":"OSVersion",
+	"Elements":
+	[
+		{
+			"Name":"Base",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

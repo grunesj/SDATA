@@ -1,0 +1,29 @@
+{
+	"@type":"Process",
+	"Name":"TestGoal",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"TestGoal.ti",
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"asciiDecimalSeparator":".",
+		"asciiDelimiterChar":",",
+		"asciiDelimiterType":"Character",
+		"asciiHeaderRecords":0,
+		"asciiQuoteCharacter":"\"",
+		"asciiThousandSeparator":",",
+		"dataSourceNameForClient":"",
+		"dataSourceNameForServer":"model_upload\\Goal13Scoring.cma"
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"vLevel0",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

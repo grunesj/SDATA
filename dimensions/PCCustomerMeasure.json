@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"PCCustomerMeasure",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('PCCustomerMeasure')/Hierarchies('PCCustomerMeasure')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"PCCustomerMeasure.hierarchies/PCCustomerMeasure.json"
+	]
+}

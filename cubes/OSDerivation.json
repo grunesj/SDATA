@@ -1,0 +1,27 @@
+{
+	"@type":"Cube",
+	"Name":"OSDerivation",
+	"Rules@Code.link":"OSDerivation.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('OSPlanningEvent')"
+		},
+		{
+			"@id":"Dimensions('OSVersion')"
+		},
+		{
+			"@id":"Dimensions('OSCompany')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')"
+		},
+		{
+			"@id":"Dimensions('OSDerivationMeasure')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"OSDerivation.views/Default.json"
+	]
+}

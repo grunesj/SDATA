@@ -1,0 +1,27 @@
+SKIPCHECK;
+
+[PCCustomerMeasure:{'Base','Amount','Needed'}]=IF( DTYPE( 'PCTime', !PCTime ) @= 'C',
+                DB( 'PCCustomerPlan', !PCVersion, !PCRegion, !PCCustomerGroup, ATTRS('PCTime', !PCTime, 'Last Period'), !PCCustomerMeasure  ),
+                CONTINUE
+          );
+
+[PCCustomerMeasure:'Base']=N:DB( 'PCCustomerPlan', !PCVersion, !PCRegion, !PCCustomerGroup,ATTRS('PCTime', !PCTime, 'Previous Period'), 'Amount' );
+
+[PCCustomerMeasure:'Adjustment']=N:IF( ELISPAR( 'PCRegion',  ATTRS('PCCustomerGroup', !PCCustomerGroup, 'Region') ,!PCRegion) = 1
+                                    %   DIMIX('PCRegion',!PCRegion)  = DIMIX('PCRegion',ATTRS('PCCustomerGroup', !PCCustomerGroup, 'Region'))
+                                          ,STET
+                                          ,0
+                          );
+[PCCustomerMeasure:'Needed']=N: DB( 'PCProductionPlan', !PCVersion, !PCRegion, !PCCustomerGroup,'Total Material', 'Total Material', !PCTime, 'ResourceNeeded' );
+
+[PCCustomerMeasure:'Costs']=N: DB( 'PCProductionPlan', !PCVersion, !PCRegion, !PCCustomerGroup,'Total Material', 'Total Material', !PCTime, 'Costs' );
+[PCCustomerMeasure:'Income']=N: DB( 'PCProductionPlan', !PCVersion, !PCRegion, !PCCustomerGroup,'Total Material', 'Total Material', !PCTime, 'Income' );
+
+FEEDERS;
+
+[PCCustomerMeasure:'Adjustment']=>DB( 'PCCustomerPlan', !PCVersion, !PCRegion, !PCCustomerGroup, ATTRS('PCTime', !PCTime, 'Next Period'), 'Amount' );
+
+[PCCustomerMeasure:'Amount']=>DB( 'PCCustomerDemand', !PCVersion, !PCRegion, !PCCustomerGroup, !PCTime,'Total Products', 'Demand'  );
+
+[PCCustomerMeasure:'Amount']=>[PCCustomerMeasure:'Costs'],[PCCustomerMeasure:'Income'];
+[PCCustomerMeasure:'Needed']=>[PCCustomerMeasure:'Costs'],[PCCustomerMeasure:'Income'];

@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Expression":"{[PCRegion].[PCRegion].[Total Region],DRILLDOWNMEMBER({[PCRegion].[PCRegion].[R1]} , {[PCRegion].[PCRegion].[R1]} , RECURSIVE),[PCRegion].[PCRegion].[R2],[PCRegion].[PCRegion].[R3],[PCRegion].[PCRegion].[R4]}"
+}

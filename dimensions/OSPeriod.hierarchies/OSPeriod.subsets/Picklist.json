@@ -1,0 +1,43 @@
+{
+	"@type":"Subset",
+	"Name":"Picklist",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Apr 18')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Mai 18')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Jun 18')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Jul 18')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Aug 18')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Sep 18')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Okt 18')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Nov 18')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Dez 18')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Jan 19')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Feb 19')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Mrz 19')"
+		}
+	]
+}

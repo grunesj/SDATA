@@ -1,0 +1,30 @@
+{
+	"@type":"Cube",
+	"Name":"OSResources",
+	"Rules@Code.link":"OSResources.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('OSPlanningEvent')"
+		},
+		{
+			"@id":"Dimensions('OSVersion')"
+		},
+		{
+			"@id":"Dimensions('OSCompany')"
+		},
+		{
+			"@id":"Dimensions('OSResource')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')"
+		},
+		{
+			"@id":"Dimensions('OSResourceMeasure')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"OSResources.views/Default.json"
+	]
+}

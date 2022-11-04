@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"PCProductionParameter",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('PCProductionParameter')/Hierarchies('PCProductionParameter')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"PCProductionParameter.hierarchies/PCProductionParameter.json"
+	]
+}

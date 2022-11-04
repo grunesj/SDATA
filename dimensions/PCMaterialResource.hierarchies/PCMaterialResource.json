@@ -1,0 +1,1680 @@
+{
+	"@type":"Hierarchy",
+	"Name":"PCMaterialResource",
+	"Elements":
+	[
+		{
+			"Name":"Total Material",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAT001",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT002",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT003",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT004",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT005",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT006",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT007",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT008",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT009",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT010",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT011",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT012",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT013",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT014",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT015",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT016",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT017",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT018",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT030",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT031",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT032",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT033",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT034",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT035",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT036",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT037",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT038",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT039",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT040",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT041",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT042",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT043",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT044",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT045",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT046",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT047",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT048",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT049",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT050",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT051",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT052",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT053",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT054",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT055",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT056",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT057",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT058",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT059",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT060",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT061",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT062",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT063",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT064",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT065",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT066",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT067",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT068",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT069",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT070",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT071",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT072",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT073",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT074",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT075",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT076",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT077",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT078",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT079",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT080",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT081",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT082",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT083",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT084",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT085",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT086",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT087",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT088",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT089",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT090",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT091",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT092",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT093",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT094",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT095",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT096",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT097",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT098",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT099",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT100",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT101",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT102",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT103",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT104",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT105",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT106",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT107",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT108",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT109",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT110",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT111",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT112",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT113",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT114",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT115",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT116",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT117",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT118",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT119",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT120",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT121",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT122",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT123",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT124",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT125",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT126",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT127",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT128",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT129",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT130",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT131",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT132",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT133",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT134",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT135",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT136",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT137",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT138",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT139",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT140",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT141",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT142",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT143",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT144",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT145",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT146",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT147",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT148",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT149",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT150",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT151",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT152",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT153",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT154",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT155",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT156",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT157",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT158",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT159",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT160",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT161",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT162",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT163",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT164",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT165",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT166",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT167",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT168",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT169",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT170",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT171",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT172",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT173",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT174",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT175",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT176",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT177",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT178",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT179",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT180",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT181",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT182",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT183",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT184",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MAT185",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT001",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT002",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT003",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT004",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT005",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT006",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT007",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT008",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT009",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT010",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT011",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT012",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT013",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT014",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT015",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT016",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT017",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT018",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT019",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT020",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT021",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT027",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT028",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT029",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT030",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT031",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT032",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT033",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT034",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT035",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT036",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT037",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT038",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT039",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT040",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT041",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT042",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT043",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT044",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT045",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT046",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT047",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT048",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT049",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT050",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT051",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT052",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT053",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT054",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT055",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT056",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT057",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT058",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT059",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT060",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT061",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT062",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT063",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT064",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT065",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT066",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT067",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT068",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT069",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT070",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT071",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT072",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT073",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT074",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT075",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT076",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT077",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT078",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT079",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT080",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT081",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT082",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT083",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT084",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT085",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT086",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT087",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT088",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT089",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT090",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT091",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT092",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT093",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT094",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT095",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT096",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT097",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT098",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT099",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT100",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT101",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT102",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT103",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT104",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT105",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT106",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT107",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT108",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT109",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT110",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT111",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT112",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT113",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT114",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT115",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT116",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT117",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT118",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT119",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT120",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT121",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT122",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT123",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT124",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT125",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT126",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT127",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT128",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT129",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT130",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT131",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT132",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT133",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT134",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT135",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT136",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT137",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT138",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT139",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT140",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT141",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT142",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT143",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT144",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT145",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT146",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT147",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT148",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT149",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT150",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT151",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT152",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT153",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT154",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT155",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT156",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT157",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT158",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT159",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT160",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT161",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT162",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT163",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT164",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT165",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT166",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT167",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT168",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT169",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT170",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT171",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT172",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT173",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT174",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT175",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT176",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT177",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT178",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT179",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT180",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT181",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT182",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT183",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT184",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Material",
+			"ComponentName":"MAT185",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

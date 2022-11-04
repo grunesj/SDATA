@@ -1,0 +1,263 @@
+{
+	"@type":"NativeView",
+	"Name":"Default",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('FY18 Total')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Apr 17')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Mai 17')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Jun 17')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Jul 17')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Aug 17')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Sep 17')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Okt 17')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Nov 17')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Dez 17')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Jan 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Feb 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Mrz 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('FY19 Total')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Apr 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Mai 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Jun 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Jul 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Aug 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Sep 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Okt 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Nov 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Dez 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Jan 19')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Feb 19')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Mrz 19')"
+					}
+				]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Labour Revenue')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Subcontractor Revenue')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Project costs')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Staff Salary')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Social Security')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Pension')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Training Costs')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Recruitment')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Other Staff Costs')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Marketing Conferences')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Marketing travel & accommodation')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Admin travel & accommodation')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Professional Services')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Other Admin')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Telephone')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Rent')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('IT Expenses')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Depreciation')"
+					},
+					{
+						"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')/Elements('Group Costs (4%)')"
+					}
+				]
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')/Elements('FY18 Actual')"
+					},
+					{
+						"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')/Elements('FY18 Forecast')"
+					},
+					{
+						"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')/Elements('FY19 Budget')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')/Elements('FY18 Actual')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSVersion')/Hierarchies('OSVersion')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSVersion')/Hierarchies('OSVersion')/Elements('Base')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('OSVersion')/Hierarchies('OSVersion')/Elements('Base')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSCompany')/Hierarchies('OSCompany')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSCompany')/Hierarchies('OSCompany')/Elements('Total Companies')"
+					},
+					{
+						"@id":"Dimensions('OSCompany')/Hierarchies('OSCompany')/Elements('Company A')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('OSCompany')/Hierarchies('OSCompany')/Elements('Company A')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSCurrency')/Hierarchies('OSCurrency')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSCurrency')/Hierarchies('OSCurrency')/Elements('GC')"
+					},
+					{
+						"@id":"Dimensions('OSCurrency')/Hierarchies('OSCurrency')/Elements('LC')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('OSCurrency')/Hierarchies('OSCurrency')/Elements('LC')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.#########"
+}

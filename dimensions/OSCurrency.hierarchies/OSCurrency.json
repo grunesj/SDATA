@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"OSCurrency",
+	"Elements":
+	[
+		{
+			"Name":"GC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LC",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,27 @@
+#region Prolog
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+sDim = 'account1';
+sElem = 'Units';
+sLang = 'de';
+sAttr = 'Caption';
+sName = 'Menge';
+
+AttrPutS( sName, sDim, sElem, sAttr, sLang );
+
+#DimensionAttrPutS( «String», «DimName», «AttrName», «LangLocaleCode» );
+
+#endregion
+#region Metadata
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

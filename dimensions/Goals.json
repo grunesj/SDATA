@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"Goals",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Goals')/Hierarchies('Goals')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"Goals.hierarchies/Goals.json"
+	]
+}

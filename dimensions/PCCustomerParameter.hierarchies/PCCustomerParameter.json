@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"PCCustomerParameter",
+	"Elements":
+	[
+		{
+			"Name":"DemandPerTime",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IncomePerUnit",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

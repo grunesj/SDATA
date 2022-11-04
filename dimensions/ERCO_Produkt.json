@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"ERCO_Produkt",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('ERCO_Produkt')/Hierarchies('ERCO_Produkt')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"ERCO_Produkt.hierarchies/ERCO_Produkt.json"
+	]
+}

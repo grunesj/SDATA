@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"OSServiceLine",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('OSServiceLine')/Hierarchies('OSServiceLine')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"OSServiceLine.hierarchies/OSServiceLine.json"
+	]
+}

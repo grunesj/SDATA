@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"OSAccount",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('OSAccount')/Hierarchies('OSAccount')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"OSAccount.hierarchies/OSAccount.json"
+	]
+}

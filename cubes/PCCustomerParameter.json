@@ -1,0 +1,23 @@
+{
+	"@type":"Cube",
+	"Name":"PCCustomerParameter",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('PCVersion')"
+		},
+		{
+			"@id":"Dimensions('PCProducts')"
+		},
+		{
+			"@id":"Dimensions('PCCustomerGroup')"
+		},
+		{
+			"@id":"Dimensions('PCCustomerParameter')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"PCCustomerParameter.views/Default.json"
+	]
+}

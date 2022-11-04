@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"Users",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('version')"
+		},
+		{
+			"@id":"Dimensions('region')"
+		},
+		{
+			"@id":"Dimensions('yearmonth')"
+		},
+		{
+			"@id":"Dimensions('measure')"
+		}
+	],
+	"Views@Code.links":[]
+}

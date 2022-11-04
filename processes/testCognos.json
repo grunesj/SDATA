@@ -1,0 +1,11 @@
+{
+	"@type":"Process",
+	"Name":"testCognos",
+	"HasSecurityAccess":false,
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

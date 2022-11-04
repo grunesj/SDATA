@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"OSCurrency",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('OSCurrency')/Hierarchies('OSCurrency')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"OSCurrency.hierarchies/OSCurrency.json"
+	]
+}

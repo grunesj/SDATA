@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"PCPreductionRecource",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('PCPreductionRecource')/Hierarchies('PCPreductionRecource')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"PCPreductionRecource.hierarchies/PCPreductionRecource.json"
+	]
+}

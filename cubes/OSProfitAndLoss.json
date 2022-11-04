@@ -1,0 +1,30 @@
+{
+	"@type":"Cube",
+	"Name":"OSProfitAndLoss",
+	"Rules@Code.link":"OSProfitAndLoss.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('OSPlanningEvent')"
+		},
+		{
+			"@id":"Dimensions('OSVersion')"
+		},
+		{
+			"@id":"Dimensions('OSCompany')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')"
+		},
+		{
+			"@id":"Dimensions('OSAccount')"
+		},
+		{
+			"@id":"Dimensions('OSCurrency')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"OSProfitAndLoss.views/Default.json"
+	]
+}

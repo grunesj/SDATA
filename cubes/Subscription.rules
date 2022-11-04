@@ -1,0 +1,40 @@
+SKIPCHECK;
+
+
+[scenario:'FC' ,measure:'Subscription']= N:
+			IF( DIMIX('period',!period) = DIMIX('period',ATTRS('version',!version,'Period')),
+            		( DB('Subscription', !version, 'ACT', !region, ATTRS('period',!yearmonth,'P P'), ATTRS('period',!period,'P P'), !measure )
+                    + DB('Subscription', !version, 'ACT', !region, ATTRS('period',!yearmonth,'PP P'), ATTRS('period',!period,'PP P'), !measure )
+            		+ DB('Subscription', !version, 'ACT', !region, ATTRS('period',!yearmonth,'PPP P'), ATTRS('period',!period,'PPP P'), !measure ))
+           		\
+                   ( DB('Users', !version, !region, ATTRS('period',!yearmonth,'P P'), 'Users' )
+            		+ DB('Users', !version, !region, ATTRS('period',!yearmonth,'PP P'), 'Users' )
+                    + DB('Users', !version, !region, ATTRS('period',!yearmonth,'PPP P'), 'Users' ))
+            		* DB('Users', !version, !region, !yearmonth, 'Users' )
+            ,
+            		  DB('Subscription',!version, 'FC', !region, ATTRS('period',!yearmonth,'P P'), ATTRS('period',!period,'P P'), !measure )
+                    \ DB('Users', !version, !region, ATTRS('period',!yearmonth,'P P'), 'Users' )
+                    * DB('Users', !version, !region, !yearmonth, 'Users' )
+            );
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FEEDERS;
+
+[scenario:'ACT' ,measure:'Subscription']=> DB( 'Subscription', !version, 'FC', !region, ATTRS('period',!yearmonth,'N P'), ATTRS('period',!period,'N P'), !measure );
+[scenario:'ACT' ,measure:'Subscription']=> DB( 'Subscription', !version, 'FC', !region, ATTRS('period',!yearmonth,'NN P'), ATTRS('period',!period,'NN P'), !measure );
+[scenario:'ACT' ,measure:'Subscription']=> DB( 'Subscription', !version, 'FC', !region, ATTRS('period',!yearmonth,'NNN P'), ATTRS('period',!period,'NNN P'), !measure );
+
+[scenario:'FC' ,measure:'Subscription']=> DB( 'Subscription', !version, 'FC', !region, ATTRS('period',!yearmonth,'N P'), ATTRS('period',!period,'N P'), !measure );

@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"ERCO_Cluster",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('ERCO_Cluster')/Hierarchies('ERCO_Cluster')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"ERCO_Cluster.hierarchies/ERCO_Cluster.json"
+	]
+}

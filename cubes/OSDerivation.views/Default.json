@@ -1,0 +1,98 @@
+{
+	"@type":"NativeView",
+	"Name":"Default",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Subsets('Budget')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSDerivationMeasure')/Hierarchies('OSDerivationMeasure')"
+				},
+				"Expression":"TM1SubsetAll([OSDerivationMeasure])"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')/Elements('FY18 Actual')"
+					},
+					{
+						"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')/Elements('FY18 Forecast')"
+					},
+					{
+						"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')/Elements('FY19 Budget')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')/Elements('FY19 Budget')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSVersion')/Hierarchies('OSVersion')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSVersion')/Hierarchies('OSVersion')/Elements('Base')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('OSVersion')/Hierarchies('OSVersion')/Elements('Base')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSCompany')/Hierarchies('OSCompany')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSCompany')/Hierarchies('OSCompany')/Elements('Total Companies')"
+					},
+					{
+						"@id":"Dimensions('OSCompany')/Hierarchies('OSCompany')/Elements('Company A')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('OSCompany')/Hierarchies('OSCompany')/Elements('Company A')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.#########"
+}

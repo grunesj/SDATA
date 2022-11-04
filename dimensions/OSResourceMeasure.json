@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"OSResourceMeasure",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('OSResourceMeasure')/Hierarchies('OSResourceMeasure')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"OSResourceMeasure.hierarchies/OSResourceMeasure.json"
+	]
+}

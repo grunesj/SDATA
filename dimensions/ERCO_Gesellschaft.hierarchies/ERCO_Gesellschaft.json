@@ -1,0 +1,136 @@
+{
+	"@type":"Hierarchy",
+	"Name":"ERCO_Gesellschaft",
+	"Elements":
+	[
+		{
+			"Name":"RSO",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"GmbH",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"RSO 1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"RSO 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"RSO 3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sales Office 1.1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sales Office 1.2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Office 2.1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Office 2.2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Office 3.1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Office 3.2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Group 1.1.1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sales Group 1.1.2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PN 1.1.1.1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PN 1.1.1.2",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"RSO",
+			"ComponentName":"RSO 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSO",
+			"ComponentName":"RSO 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSO",
+			"ComponentName":"RSO 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSO 1",
+			"ComponentName":"Sales Office 1.1",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSO 1",
+			"ComponentName":"Sales Office 1.2",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSO 2",
+			"ComponentName":"Sales Office 2.1",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSO 2",
+			"ComponentName":"Sales Office 2.2",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSO 3",
+			"ComponentName":"Sales Office 3.1",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSO 3",
+			"ComponentName":"Sales Office 3.2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sales Office 1.1",
+			"ComponentName":"Sales Group 1.1.1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sales Office 1.1",
+			"ComponentName":"Sales Group 1.1.2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sales Group 1.1.1",
+			"ComponentName":"PN 1.1.1.1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sales Group 1.1.1",
+			"ComponentName":"PN 1.1.1.2",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

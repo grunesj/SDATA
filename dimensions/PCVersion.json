@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"PCVersion",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('PCVersion')/Hierarchies('PCVersion')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"PCVersion.hierarchies/PCVersion.json"
+	]
+}

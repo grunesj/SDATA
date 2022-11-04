@@ -1,0 +1,780 @@
+{
+	"@type":"Hierarchy",
+	"Name":"PCTime",
+	"Elements":
+	[
+		{
+			"Name":"Jan 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mrz 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mai 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Okt 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dez 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mrz 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mai 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Okt 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dez 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mrz 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mai 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Okt 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dez 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mrz 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mai 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Okt 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dez 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mrz 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mai 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Okt 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dez 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Q1 2022",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q2 2022",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q3 2022",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q4 2022",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q1 2023",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q2 2023",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q3 2023",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q4 2023",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q1 2024",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q2 2024",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q3 2024",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q4 2024",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q1 2025",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q2 2025",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q3 2025",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q4 2025",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q1 2026",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q2 2026",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q3 2026",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Q4 2026",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Years",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"2022",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"2023",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"2024",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"2025",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"2026",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Q1 2022",
+			"ComponentName":"Jan 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2022",
+			"ComponentName":"Feb 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2022",
+			"ComponentName":"Mrz 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2022",
+			"ComponentName":"Apr 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2022",
+			"ComponentName":"Mai 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2022",
+			"ComponentName":"Jun 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2022",
+			"ComponentName":"Jul 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2022",
+			"ComponentName":"Aug 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2022",
+			"ComponentName":"Sep 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2022",
+			"ComponentName":"Okt 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2022",
+			"ComponentName":"Nov 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2022",
+			"ComponentName":"Dez 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2023",
+			"ComponentName":"Jan 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2023",
+			"ComponentName":"Feb 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2023",
+			"ComponentName":"Mrz 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2023",
+			"ComponentName":"Apr 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2023",
+			"ComponentName":"Mai 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2023",
+			"ComponentName":"Jun 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2023",
+			"ComponentName":"Jul 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2023",
+			"ComponentName":"Aug 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2023",
+			"ComponentName":"Sep 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2023",
+			"ComponentName":"Okt 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2023",
+			"ComponentName":"Nov 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2023",
+			"ComponentName":"Dez 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2024",
+			"ComponentName":"Jan 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2024",
+			"ComponentName":"Feb 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2024",
+			"ComponentName":"Mrz 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2024",
+			"ComponentName":"Apr 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2024",
+			"ComponentName":"Mai 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2024",
+			"ComponentName":"Jun 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2024",
+			"ComponentName":"Jul 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2024",
+			"ComponentName":"Aug 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2024",
+			"ComponentName":"Sep 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2024",
+			"ComponentName":"Okt 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2024",
+			"ComponentName":"Nov 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2024",
+			"ComponentName":"Dez 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2025",
+			"ComponentName":"Jan 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2025",
+			"ComponentName":"Feb 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2025",
+			"ComponentName":"Mrz 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2025",
+			"ComponentName":"Apr 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2025",
+			"ComponentName":"Mai 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2025",
+			"ComponentName":"Jun 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2025",
+			"ComponentName":"Jul 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2025",
+			"ComponentName":"Aug 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2025",
+			"ComponentName":"Sep 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2025",
+			"ComponentName":"Okt 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2025",
+			"ComponentName":"Nov 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2025",
+			"ComponentName":"Dez 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2026",
+			"ComponentName":"Jan 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2026",
+			"ComponentName":"Feb 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q1 2026",
+			"ComponentName":"Mrz 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2026",
+			"ComponentName":"Apr 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2026",
+			"ComponentName":"Mai 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q2 2026",
+			"ComponentName":"Jun 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2026",
+			"ComponentName":"Jul 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2026",
+			"ComponentName":"Aug 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q3 2026",
+			"ComponentName":"Sep 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2026",
+			"ComponentName":"Okt 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2026",
+			"ComponentName":"Nov 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Q4 2026",
+			"ComponentName":"Dez 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Years",
+			"ComponentName":"2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Years",
+			"ComponentName":"2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Years",
+			"ComponentName":"2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"Years",
+			"ComponentName":"2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"Years",
+			"ComponentName":"2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"2022",
+			"ComponentName":"Q1 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"2022",
+			"ComponentName":"Q2 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"2022",
+			"ComponentName":"Q3 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"2022",
+			"ComponentName":"Q4 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"2023",
+			"ComponentName":"Q1 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"2023",
+			"ComponentName":"Q2 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"2023",
+			"ComponentName":"Q3 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"2023",
+			"ComponentName":"Q4 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"2024",
+			"ComponentName":"Q1 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"2024",
+			"ComponentName":"Q2 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"2024",
+			"ComponentName":"Q3 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"2024",
+			"ComponentName":"Q4 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"2025",
+			"ComponentName":"Q1 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"2025",
+			"ComponentName":"Q2 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"2025",
+			"ComponentName":"Q3 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"2025",
+			"ComponentName":"Q4 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"2026",
+			"ComponentName":"Q1 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"2026",
+			"ComponentName":"Q2 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"2026",
+			"ComponentName":"Q3 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"2026",
+			"ComponentName":"Q4 2026",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

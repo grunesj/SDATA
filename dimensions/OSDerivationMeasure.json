@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"OSDerivationMeasure",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('OSDerivationMeasure')/Hierarchies('OSDerivationMeasure')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"OSDerivationMeasure.hierarchies/OSDerivationMeasure.json"
+	]
+}

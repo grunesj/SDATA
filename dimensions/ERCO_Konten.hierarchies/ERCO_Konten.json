@@ -1,0 +1,2118 @@
+{
+	"@type":"Hierarchy",
+	"Name":"ERCO_Konten",
+	"Elements":
+	[
+		{
+			"Name":"Umsatzerlöse",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Brutto-Umsatzerlöse",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"EAT (GKV)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"EBT (GKV)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"EBIT (GKV)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Umsatzerlöse (GKV)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Brutto-Umsatzerlöse (GKV)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Umsatz",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Umsatz ggü. verb. Untern.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Erlös-Schmälerungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Erlösschmälerungen (GKV)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Bonus",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Skonto",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sonstige betr. Erträge",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sonstige betr. Erträge verb. Unt. (GKV)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Ertrag Service Fees verb. Unt.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bestandsveränderungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Erhöhung oder Verminderung des Bestands",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Betriebliche Aufwendungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Materialaufwand",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Aufwand für Material",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aufwendungen für bezogene Leistungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Fremdleistungen für Erzeugnisse",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Fremdleistungen für Erzeugnisse /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fremdleistungen für Erzeugnisse /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fremdleistungen für Erzeugnisse /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fremdleistungen für Erzeugnisse /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ausgangsfrachten und Fremdlager",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Ausgangsfrachten und Fremdlager /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ausgangsfrachten und Fremdlager /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ausgangsfrachten und Fremdlager /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ausgangsfrachten und Fremdlager /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Vertriebsprovisisionen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Vertriebsprovisisionen /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Vertriebsprovisisionen /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Vertriebsprovisisionen /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Vertriebsprovisisionen /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fremdinstandhaltung",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Fremdinstandhaltung /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fremdinstandhaltung /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fremdinstandhaltung /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fremdinstandhaltung /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"sonstiger Aufwand für bezogene Leistungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"sonstiger Aufwand für bezogene Leistungen /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"sonstiger Aufwand für bezogene Leistungen /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"sonstiger Aufwand für bezogene Leistungen /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"sonstiger Aufwand für bezogene Leistungen /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Löhne",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Löhne für geleistete Arbeitszeit",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Löhne für geleistete Arbeitszeit /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Löhne für geleistete Arbeitszeit /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Löhne für geleistete Arbeitszeit /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Löhne für geleistete Arbeitszeit /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Löhne für andere Zeiten (Urlaub, Krankheit,…)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Löhne für andere Zeiten (Urlaub, Krankheit,…) /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Löhne für andere Zeiten (Urlaub, Krankheit,…) /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Löhne für andere Zeiten (Urlaub, Krankheit,…) /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Löhne für andere Zeiten (Urlaub, Krankheit,…) /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sonstige verpfl. Leistungen für Lohnempfänger",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sonstige verpfl. Leistungen für Lohnempfänger /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sonstige verpfl. Leistungen für Lohnempfänger /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sonstige verpfl. Leistungen für Lohnempfänger /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sonstige verpfl. Leistungen für Lohnempfänger /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freiwillige Zuwendungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Freiwillige Zuwendungen /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freiwillige Zuwendungen /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freiwillige Zuwendungen /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freiwillige Zuwendungen /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gehälter",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Gehälter einschl. Zulagen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Gehälter einschl. Zulagen /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gehälter einschl. Zulagen /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gehälter einschl. Zulagen /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gehälter einschl. Zulagen /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sonstige verpflichtende Gehälter",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sonstige verpflichtende Gehälter /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sonstige verpflichtende Gehälter /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sonstige verpflichtende Gehälter /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sonstige verpflichtende Gehälter /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freiwillige Gehaltszuwendungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Freiwillige Gehaltszuwendungen /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freiwillige Gehaltszuwendungen /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freiwillige Gehaltszuwendungen /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freiwillige Gehaltszuwendungen /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sozialabgangen und Aufwand für Altersvorsorge",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Arbeitgeberanteil zur SV (Lohn)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Arbeitgeberanteil zur SV (Lohn) /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Arbeitgeberanteil zur SV (Lohn) /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Arbeitgeberanteil zur SV (Lohn) /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Arbeitgeberanteil zur SV (Lohn) /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Arbeitgeberanteil zur SV (Gehalt)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Arbeitgeberanteil zur SV (Gehalt) /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Arbeitgeberanteil zur SV (Gehalt) /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Arbeitgeberanteil zur SV (Gehalt) /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Arbeitgeberanteil zur SV (Gehalt) /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Beiträge zur BG",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Beiträge zur BG /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Beiträge zur BG /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Beiträge zur BG /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Beiträge zur BG /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aufwand für Altersvorsorge",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Aufwand für Altersvorsorge /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aufwand für Altersvorsorge /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aufwand für Altersvorsorge /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aufwand für Altersvorsorge /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abschreibungen auf Anlagevermögen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Abschreibung auf imm. Vermögensgegenstände des AV",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Abschreibung auf imm. Vermögensgegenstände des AV /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abschreibung auf imm. Vermögensgegenstände des AV /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abschreibung auf imm. Vermögensgegenstände des AV /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abschreibung auf imm. Vermögensgegenstände des AV /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abschreibung auf Sachanlagen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Abschreibung auf Sachanlagen /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abschreibung auf Sachanlagen /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abschreibung auf Sachanlagen /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abschreibung auf Sachanlagen /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abschreibung auf Sammelposten GWG",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Abschreibung auf Sammelposten GWG  /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abschreibung auf Sammelposten GWG  /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abschreibung auf Sammelposten GWG  /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abschreibung auf Sammelposten GWG /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Außerplanmäßige Abschreibungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Außerplanmäßige Abschreibungen /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Außerplanmäßige Abschreibungen /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Außerplanmäßige Abschreibungen /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Außerplanmäßige Abschreibungen /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aufwendungen für die Inanspr. von Rechten/Diensten",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Mieten, Pachten",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Mieten, Pachten /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mieten, Pachten /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mieten, Pachten /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mieten, Pachten /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Leasing",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Leasing /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Leasing /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Leasing /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Leasing /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Lizenzen und Konzessionen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Lizenzen und Konzessionen /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Lizenzen und Konzessionen /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Lizenzen und Konzessionen /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Lizenzen und Konzessionen /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gebühren",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Gebühren /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gebühren /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gebühren /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gebühren /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Provisionsaufwendungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Provisionsaufwendungen /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Provisionsaufwendungen /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Provisionsaufwendungen /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Provisionsaufwendungen /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aufwendungen für Kommunikation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Büromaterial",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Büromaterial /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Büromaterial /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Büromaterial /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Büromaterial /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Zeitungen und Fachliteratur",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Zeitungen und Fachliteratur /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Zeitungen und Fachliteratur /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Zeitungen und Fachliteratur /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Zeitungen und Fachliteratur /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Post- und Kommunikationsgebühren",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Post- und Kommunikationsgebühren /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Post- und Kommunikationsgebühren /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Post- und Kommunikationsgebühren /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Post- und Kommunikationsgebühren /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Reisekosten",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Reisekosten /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Reisekosten /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Reisekosten /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Reisekosten /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bewirtung und Repräsentation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Bewirtung und Repräsentation /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bewirtung und Repräsentation /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bewirtung und Repräsentation /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bewirtung und Repräsentation /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Werbung",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Werbung /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Werbung /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Werbung /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Werbung /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Spenden (nur Kapitalgesellschaften)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Spenden (nur Kapitalgesellschaften) /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Spenden (nur Kapitalgesellschaften) /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Spenden (nur Kapitalgesellschaften) /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Spenden (nur Kapitalgesellschaften) /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aufwendungen für Beiträge und Sonstiges",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Versicherungsbeiträge",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Versicherungsbeiträge /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Versicherungsbeiträge /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Versicherungsbeiträge /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Versicherungsbeiträge /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen  /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen  /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen  /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Verluste aus Schadensfällen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Verluste aus Schadensfällen /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Verluste aus Schadensfällen /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Verluste aus Schadensfällen /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Verluste aus Schadensfällen /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Verluste aus dem Abg. von Vermögensgegenständen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Verluste aus dem Abg. von Vermögensgegenständen /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Verluste aus dem Abg. von Vermögensgegenständen /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Verluste aus dem Abg. von Vermögensgegenständen /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Verluste aus dem Abg. von Vermögensgegenständen /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Zuführung zu Rückstellungen für Gewährleistungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Zuführung zu Rückstellungen für Gewährleistungen /Vertrieb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Zuführung zu Rückstellungen für Gewährleistungen /Logistik",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Zuführung zu Rückstellungen für Gewährleistungen /Verwaltung",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Zuführung zu Rückstellungen für Gewährleistungen /Produktion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"sonst. betr. Aufwendungen (GKV)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Kostenverrechnung",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Aufwand Service Fees verb. Unt.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sonstige Aufwendungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sonstige Aufwendgen",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Zinsen und ähnliche Aufwendungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Zinsaufwendungen",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sonstige zinsähnliche Aufwendungen",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Außerordentliche Aufwendungen (GKV)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Außerordentliche Aufwendungen",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Steuern vom Einkommen und Ertrag",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Gewerbeertragsteuer",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Körperschaftsteuer (bei Kapitalgesellschaften)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kapitalertragssteuer (bei Kapitalgesellschaften)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Betriebliche Steuern",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Vermögenssteuer (nur bei Kapitalgesellschaften)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Grundsteuer",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kraftfahrzeugsteuer",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sonstige betriebl. Steuern",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Umsatzerlöse",
+			"ComponentName":"Brutto-Umsatzerlöse",
+			"Weight":1
+		},
+		{
+			"ParentName":"Umsatzerlöse",
+			"ComponentName":"Erlös-Schmälerungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brutto-Umsatzerlöse",
+			"ComponentName":"Umsatz",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brutto-Umsatzerlöse",
+			"ComponentName":"Umsatz ggü. verb. Untern.",
+			"Weight":1
+		},
+		{
+			"ParentName":"EAT (GKV)",
+			"ComponentName":"EBT (GKV)",
+			"Weight":1
+		},
+		{
+			"ParentName":"EAT (GKV)",
+			"ComponentName":"Steuern vom Einkommen und Ertrag",
+			"Weight":1
+		},
+		{
+			"ParentName":"EAT (GKV)",
+			"ComponentName":"Betriebliche Steuern",
+			"Weight":1
+		},
+		{
+			"ParentName":"EBT (GKV)",
+			"ComponentName":"EBIT (GKV)",
+			"Weight":1
+		},
+		{
+			"ParentName":"EBT (GKV)",
+			"ComponentName":"Zinsen und ähnliche Aufwendungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"EBT (GKV)",
+			"ComponentName":"Außerordentliche Aufwendungen (GKV)",
+			"Weight":1
+		},
+		{
+			"ParentName":"EBIT (GKV)",
+			"ComponentName":"Umsatzerlöse (GKV)",
+			"Weight":1
+		},
+		{
+			"ParentName":"EBIT (GKV)",
+			"ComponentName":"Sonstige betr. Erträge",
+			"Weight":1
+		},
+		{
+			"ParentName":"EBIT (GKV)",
+			"ComponentName":"Bestandsveränderungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"EBIT (GKV)",
+			"ComponentName":"Betriebliche Aufwendungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"EBIT (GKV)",
+			"ComponentName":"sonst. betr. Aufwendungen (GKV)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Umsatzerlöse (GKV)",
+			"ComponentName":"Brutto-Umsatzerlöse (GKV)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Umsatzerlöse (GKV)",
+			"ComponentName":"Erlösschmälerungen (GKV)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brutto-Umsatzerlöse (GKV)",
+			"ComponentName":"Umsatz",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brutto-Umsatzerlöse (GKV)",
+			"ComponentName":"Umsatz ggü. verb. Untern.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Erlös-Schmälerungen",
+			"ComponentName":"Bonus",
+			"Weight":1
+		},
+		{
+			"ParentName":"Erlös-Schmälerungen",
+			"ComponentName":"Skonto",
+			"Weight":1
+		},
+		{
+			"ParentName":"Erlösschmälerungen (GKV)",
+			"ComponentName":"Bonus",
+			"Weight":1
+		},
+		{
+			"ParentName":"Erlösschmälerungen (GKV)",
+			"ComponentName":"Skonto",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sonstige betr. Erträge",
+			"ComponentName":"Sonstige betr. Erträge verb. Unt. (GKV)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sonstige betr. Erträge verb. Unt. (GKV)",
+			"ComponentName":"Ertrag Service Fees verb. Unt.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Bestandsveränderungen",
+			"ComponentName":"Erhöhung oder Verminderung des Bestands",
+			"Weight":1
+		},
+		{
+			"ParentName":"Betriebliche Aufwendungen",
+			"ComponentName":"Materialaufwand",
+			"Weight":1
+		},
+		{
+			"ParentName":"Betriebliche Aufwendungen",
+			"ComponentName":"Aufwendungen für bezogene Leistungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Betriebliche Aufwendungen",
+			"ComponentName":"Löhne",
+			"Weight":1
+		},
+		{
+			"ParentName":"Betriebliche Aufwendungen",
+			"ComponentName":"Gehälter",
+			"Weight":1
+		},
+		{
+			"ParentName":"Betriebliche Aufwendungen",
+			"ComponentName":"Sozialabgangen und Aufwand für Altersvorsorge",
+			"Weight":1
+		},
+		{
+			"ParentName":"Betriebliche Aufwendungen",
+			"ComponentName":"Abschreibungen auf Anlagevermögen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Betriebliche Aufwendungen",
+			"ComponentName":"Aufwendungen für die Inanspr. von Rechten/Diensten",
+			"Weight":1
+		},
+		{
+			"ParentName":"Betriebliche Aufwendungen",
+			"ComponentName":"Aufwendungen für Kommunikation",
+			"Weight":1
+		},
+		{
+			"ParentName":"Betriebliche Aufwendungen",
+			"ComponentName":"Aufwendungen für Beiträge und Sonstiges",
+			"Weight":1
+		},
+		{
+			"ParentName":"Materialaufwand",
+			"ComponentName":"Aufwand für Material",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für bezogene Leistungen",
+			"ComponentName":"Fremdleistungen für Erzeugnisse",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für bezogene Leistungen",
+			"ComponentName":"Ausgangsfrachten und Fremdlager",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für bezogene Leistungen",
+			"ComponentName":"Vertriebsprovisisionen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für bezogene Leistungen",
+			"ComponentName":"Fremdinstandhaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für bezogene Leistungen",
+			"ComponentName":"sonstiger Aufwand für bezogene Leistungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Fremdleistungen für Erzeugnisse",
+			"ComponentName":"Fremdleistungen für Erzeugnisse /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Fremdleistungen für Erzeugnisse",
+			"ComponentName":"Fremdleistungen für Erzeugnisse /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Fremdleistungen für Erzeugnisse",
+			"ComponentName":"Fremdleistungen für Erzeugnisse /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Fremdleistungen für Erzeugnisse",
+			"ComponentName":"Fremdleistungen für Erzeugnisse /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Ausgangsfrachten und Fremdlager",
+			"ComponentName":"Ausgangsfrachten und Fremdlager /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Ausgangsfrachten und Fremdlager",
+			"ComponentName":"Ausgangsfrachten und Fremdlager /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Ausgangsfrachten und Fremdlager",
+			"ComponentName":"Ausgangsfrachten und Fremdlager /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Ausgangsfrachten und Fremdlager",
+			"ComponentName":"Ausgangsfrachten und Fremdlager /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Vertriebsprovisisionen",
+			"ComponentName":"Vertriebsprovisisionen /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Vertriebsprovisisionen",
+			"ComponentName":"Vertriebsprovisisionen /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Vertriebsprovisisionen",
+			"ComponentName":"Vertriebsprovisisionen /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Vertriebsprovisisionen",
+			"ComponentName":"Vertriebsprovisisionen /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Fremdinstandhaltung",
+			"ComponentName":"Fremdinstandhaltung /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Fremdinstandhaltung",
+			"ComponentName":"Fremdinstandhaltung /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Fremdinstandhaltung",
+			"ComponentName":"Fremdinstandhaltung /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Fremdinstandhaltung",
+			"ComponentName":"Fremdinstandhaltung /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"sonstiger Aufwand für bezogene Leistungen",
+			"ComponentName":"sonstiger Aufwand für bezogene Leistungen /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"sonstiger Aufwand für bezogene Leistungen",
+			"ComponentName":"sonstiger Aufwand für bezogene Leistungen /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"sonstiger Aufwand für bezogene Leistungen",
+			"ComponentName":"sonstiger Aufwand für bezogene Leistungen /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"sonstiger Aufwand für bezogene Leistungen",
+			"ComponentName":"sonstiger Aufwand für bezogene Leistungen /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Löhne",
+			"ComponentName":"Löhne für geleistete Arbeitszeit",
+			"Weight":1
+		},
+		{
+			"ParentName":"Löhne",
+			"ComponentName":"Löhne für andere Zeiten (Urlaub, Krankheit,…)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Löhne",
+			"ComponentName":"Sonstige verpfl. Leistungen für Lohnempfänger",
+			"Weight":1
+		},
+		{
+			"ParentName":"Löhne",
+			"ComponentName":"Freiwillige Zuwendungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Löhne für geleistete Arbeitszeit",
+			"ComponentName":"Löhne für geleistete Arbeitszeit /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Löhne für geleistete Arbeitszeit",
+			"ComponentName":"Löhne für geleistete Arbeitszeit /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Löhne für geleistete Arbeitszeit",
+			"ComponentName":"Löhne für geleistete Arbeitszeit /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Löhne für geleistete Arbeitszeit",
+			"ComponentName":"Löhne für geleistete Arbeitszeit /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Löhne für andere Zeiten (Urlaub, Krankheit,…)",
+			"ComponentName":"Löhne für andere Zeiten (Urlaub, Krankheit,…) /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Löhne für andere Zeiten (Urlaub, Krankheit,…)",
+			"ComponentName":"Löhne für andere Zeiten (Urlaub, Krankheit,…) /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Löhne für andere Zeiten (Urlaub, Krankheit,…)",
+			"ComponentName":"Löhne für andere Zeiten (Urlaub, Krankheit,…) /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Löhne für andere Zeiten (Urlaub, Krankheit,…)",
+			"ComponentName":"Löhne für andere Zeiten (Urlaub, Krankheit,…) /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sonstige verpfl. Leistungen für Lohnempfänger",
+			"ComponentName":"Sonstige verpfl. Leistungen für Lohnempfänger /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sonstige verpfl. Leistungen für Lohnempfänger",
+			"ComponentName":"Sonstige verpfl. Leistungen für Lohnempfänger /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sonstige verpfl. Leistungen für Lohnempfänger",
+			"ComponentName":"Sonstige verpfl. Leistungen für Lohnempfänger /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sonstige verpfl. Leistungen für Lohnempfänger",
+			"ComponentName":"Sonstige verpfl. Leistungen für Lohnempfänger /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Freiwillige Zuwendungen",
+			"ComponentName":"Freiwillige Zuwendungen /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Freiwillige Zuwendungen",
+			"ComponentName":"Freiwillige Zuwendungen /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Freiwillige Zuwendungen",
+			"ComponentName":"Freiwillige Zuwendungen /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Freiwillige Zuwendungen",
+			"ComponentName":"Freiwillige Zuwendungen /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gehälter",
+			"ComponentName":"Gehälter einschl. Zulagen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gehälter",
+			"ComponentName":"Sonstige verpflichtende Gehälter",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gehälter",
+			"ComponentName":"Freiwillige Gehaltszuwendungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gehälter einschl. Zulagen",
+			"ComponentName":"Gehälter einschl. Zulagen /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gehälter einschl. Zulagen",
+			"ComponentName":"Gehälter einschl. Zulagen /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gehälter einschl. Zulagen",
+			"ComponentName":"Gehälter einschl. Zulagen /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gehälter einschl. Zulagen",
+			"ComponentName":"Gehälter einschl. Zulagen /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sonstige verpflichtende Gehälter",
+			"ComponentName":"Sonstige verpflichtende Gehälter /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sonstige verpflichtende Gehälter",
+			"ComponentName":"Sonstige verpflichtende Gehälter /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sonstige verpflichtende Gehälter",
+			"ComponentName":"Sonstige verpflichtende Gehälter /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sonstige verpflichtende Gehälter",
+			"ComponentName":"Sonstige verpflichtende Gehälter /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Freiwillige Gehaltszuwendungen",
+			"ComponentName":"Freiwillige Gehaltszuwendungen /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Freiwillige Gehaltszuwendungen",
+			"ComponentName":"Freiwillige Gehaltszuwendungen /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Freiwillige Gehaltszuwendungen",
+			"ComponentName":"Freiwillige Gehaltszuwendungen /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Freiwillige Gehaltszuwendungen",
+			"ComponentName":"Freiwillige Gehaltszuwendungen /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sozialabgangen und Aufwand für Altersvorsorge",
+			"ComponentName":"Arbeitgeberanteil zur SV (Lohn)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sozialabgangen und Aufwand für Altersvorsorge",
+			"ComponentName":"Arbeitgeberanteil zur SV (Gehalt)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sozialabgangen und Aufwand für Altersvorsorge",
+			"ComponentName":"Beiträge zur BG",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sozialabgangen und Aufwand für Altersvorsorge",
+			"ComponentName":"Aufwand für Altersvorsorge",
+			"Weight":1
+		},
+		{
+			"ParentName":"Arbeitgeberanteil zur SV (Lohn)",
+			"ComponentName":"Arbeitgeberanteil zur SV (Lohn) /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Arbeitgeberanteil zur SV (Lohn)",
+			"ComponentName":"Arbeitgeberanteil zur SV (Lohn) /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Arbeitgeberanteil zur SV (Lohn)",
+			"ComponentName":"Arbeitgeberanteil zur SV (Lohn) /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Arbeitgeberanteil zur SV (Lohn)",
+			"ComponentName":"Arbeitgeberanteil zur SV (Lohn) /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Arbeitgeberanteil zur SV (Gehalt)",
+			"ComponentName":"Arbeitgeberanteil zur SV (Gehalt) /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Arbeitgeberanteil zur SV (Gehalt)",
+			"ComponentName":"Arbeitgeberanteil zur SV (Gehalt) /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Arbeitgeberanteil zur SV (Gehalt)",
+			"ComponentName":"Arbeitgeberanteil zur SV (Gehalt) /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Arbeitgeberanteil zur SV (Gehalt)",
+			"ComponentName":"Arbeitgeberanteil zur SV (Gehalt) /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Beiträge zur BG",
+			"ComponentName":"Beiträge zur BG /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Beiträge zur BG",
+			"ComponentName":"Beiträge zur BG /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Beiträge zur BG",
+			"ComponentName":"Beiträge zur BG /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Beiträge zur BG",
+			"ComponentName":"Beiträge zur BG /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwand für Altersvorsorge",
+			"ComponentName":"Aufwand für Altersvorsorge /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwand für Altersvorsorge",
+			"ComponentName":"Aufwand für Altersvorsorge /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwand für Altersvorsorge",
+			"ComponentName":"Aufwand für Altersvorsorge /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwand für Altersvorsorge",
+			"ComponentName":"Aufwand für Altersvorsorge /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibungen auf Anlagevermögen",
+			"ComponentName":"Abschreibung auf imm. Vermögensgegenstände des AV",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibungen auf Anlagevermögen",
+			"ComponentName":"Abschreibung auf Sachanlagen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibungen auf Anlagevermögen",
+			"ComponentName":"Abschreibung auf Sammelposten GWG",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibungen auf Anlagevermögen",
+			"ComponentName":"Außerplanmäßige Abschreibungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibung auf imm. Vermögensgegenstände des AV",
+			"ComponentName":"Abschreibung auf imm. Vermögensgegenstände des AV /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibung auf imm. Vermögensgegenstände des AV",
+			"ComponentName":"Abschreibung auf imm. Vermögensgegenstände des AV /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibung auf imm. Vermögensgegenstände des AV",
+			"ComponentName":"Abschreibung auf imm. Vermögensgegenstände des AV /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibung auf imm. Vermögensgegenstände des AV",
+			"ComponentName":"Abschreibung auf imm. Vermögensgegenstände des AV /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibung auf Sachanlagen",
+			"ComponentName":"Abschreibung auf Sachanlagen /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibung auf Sachanlagen",
+			"ComponentName":"Abschreibung auf Sachanlagen /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibung auf Sachanlagen",
+			"ComponentName":"Abschreibung auf Sachanlagen /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibung auf Sachanlagen",
+			"ComponentName":"Abschreibung auf Sachanlagen /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibung auf Sammelposten GWG",
+			"ComponentName":"Abschreibung auf Sammelposten GWG  /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibung auf Sammelposten GWG",
+			"ComponentName":"Abschreibung auf Sammelposten GWG  /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibung auf Sammelposten GWG",
+			"ComponentName":"Abschreibung auf Sammelposten GWG  /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abschreibung auf Sammelposten GWG",
+			"ComponentName":"Abschreibung auf Sammelposten GWG /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Außerplanmäßige Abschreibungen",
+			"ComponentName":"Außerplanmäßige Abschreibungen /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Außerplanmäßige Abschreibungen",
+			"ComponentName":"Außerplanmäßige Abschreibungen /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Außerplanmäßige Abschreibungen",
+			"ComponentName":"Außerplanmäßige Abschreibungen /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Außerplanmäßige Abschreibungen",
+			"ComponentName":"Außerplanmäßige Abschreibungen /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für die Inanspr. von Rechten/Diensten",
+			"ComponentName":"Mieten, Pachten",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für die Inanspr. von Rechten/Diensten",
+			"ComponentName":"Leasing",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für die Inanspr. von Rechten/Diensten",
+			"ComponentName":"Lizenzen und Konzessionen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für die Inanspr. von Rechten/Diensten",
+			"ComponentName":"Gebühren",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für die Inanspr. von Rechten/Diensten",
+			"ComponentName":"Provisionsaufwendungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mieten, Pachten",
+			"ComponentName":"Mieten, Pachten /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mieten, Pachten",
+			"ComponentName":"Mieten, Pachten /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mieten, Pachten",
+			"ComponentName":"Mieten, Pachten /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mieten, Pachten",
+			"ComponentName":"Mieten, Pachten /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Leasing",
+			"ComponentName":"Leasing /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Leasing",
+			"ComponentName":"Leasing /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Leasing",
+			"ComponentName":"Leasing /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Leasing",
+			"ComponentName":"Leasing /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lizenzen und Konzessionen",
+			"ComponentName":"Lizenzen und Konzessionen /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lizenzen und Konzessionen",
+			"ComponentName":"Lizenzen und Konzessionen /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lizenzen und Konzessionen",
+			"ComponentName":"Lizenzen und Konzessionen /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lizenzen und Konzessionen",
+			"ComponentName":"Lizenzen und Konzessionen /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gebühren",
+			"ComponentName":"Gebühren /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gebühren",
+			"ComponentName":"Gebühren /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gebühren",
+			"ComponentName":"Gebühren /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gebühren",
+			"ComponentName":"Gebühren /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Provisionsaufwendungen",
+			"ComponentName":"Provisionsaufwendungen /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Provisionsaufwendungen",
+			"ComponentName":"Provisionsaufwendungen /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Provisionsaufwendungen",
+			"ComponentName":"Provisionsaufwendungen /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Provisionsaufwendungen",
+			"ComponentName":"Provisionsaufwendungen /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für Kommunikation",
+			"ComponentName":"Büromaterial",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für Kommunikation",
+			"ComponentName":"Zeitungen und Fachliteratur",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für Kommunikation",
+			"ComponentName":"Post- und Kommunikationsgebühren",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für Kommunikation",
+			"ComponentName":"Reisekosten",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für Kommunikation",
+			"ComponentName":"Bewirtung und Repräsentation",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für Kommunikation",
+			"ComponentName":"Werbung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für Kommunikation",
+			"ComponentName":"Spenden (nur Kapitalgesellschaften)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Büromaterial",
+			"ComponentName":"Büromaterial /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Büromaterial",
+			"ComponentName":"Büromaterial /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Büromaterial",
+			"ComponentName":"Büromaterial /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Büromaterial",
+			"ComponentName":"Büromaterial /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zeitungen und Fachliteratur",
+			"ComponentName":"Zeitungen und Fachliteratur /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zeitungen und Fachliteratur",
+			"ComponentName":"Zeitungen und Fachliteratur /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zeitungen und Fachliteratur",
+			"ComponentName":"Zeitungen und Fachliteratur /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zeitungen und Fachliteratur",
+			"ComponentName":"Zeitungen und Fachliteratur /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Post- und Kommunikationsgebühren",
+			"ComponentName":"Post- und Kommunikationsgebühren /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Post- und Kommunikationsgebühren",
+			"ComponentName":"Post- und Kommunikationsgebühren /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Post- und Kommunikationsgebühren",
+			"ComponentName":"Post- und Kommunikationsgebühren /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Post- und Kommunikationsgebühren",
+			"ComponentName":"Post- und Kommunikationsgebühren /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Reisekosten",
+			"ComponentName":"Reisekosten /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Reisekosten",
+			"ComponentName":"Reisekosten /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Reisekosten",
+			"ComponentName":"Reisekosten /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Reisekosten",
+			"ComponentName":"Reisekosten /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Bewirtung und Repräsentation",
+			"ComponentName":"Bewirtung und Repräsentation /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Bewirtung und Repräsentation",
+			"ComponentName":"Bewirtung und Repräsentation /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Bewirtung und Repräsentation",
+			"ComponentName":"Bewirtung und Repräsentation /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Bewirtung und Repräsentation",
+			"ComponentName":"Bewirtung und Repräsentation /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Werbung",
+			"ComponentName":"Werbung /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Werbung",
+			"ComponentName":"Werbung /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Werbung",
+			"ComponentName":"Werbung /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Werbung",
+			"ComponentName":"Werbung /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Spenden (nur Kapitalgesellschaften)",
+			"ComponentName":"Spenden (nur Kapitalgesellschaften) /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Spenden (nur Kapitalgesellschaften)",
+			"ComponentName":"Spenden (nur Kapitalgesellschaften) /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Spenden (nur Kapitalgesellschaften)",
+			"ComponentName":"Spenden (nur Kapitalgesellschaften) /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Spenden (nur Kapitalgesellschaften)",
+			"ComponentName":"Spenden (nur Kapitalgesellschaften) /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für Beiträge und Sonstiges",
+			"ComponentName":"Versicherungsbeiträge",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für Beiträge und Sonstiges",
+			"ComponentName":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für Beiträge und Sonstiges",
+			"ComponentName":"Verluste aus Schadensfällen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für Beiträge und Sonstiges",
+			"ComponentName":"Verluste aus dem Abg. von Vermögensgegenständen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aufwendungen für Beiträge und Sonstiges",
+			"ComponentName":"Zuführung zu Rückstellungen für Gewährleistungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Versicherungsbeiträge",
+			"ComponentName":"Versicherungsbeiträge /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Versicherungsbeiträge",
+			"ComponentName":"Versicherungsbeiträge /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Versicherungsbeiträge",
+			"ComponentName":"Versicherungsbeiträge /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Versicherungsbeiträge",
+			"ComponentName":"Versicherungsbeiträge /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen",
+			"ComponentName":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen  /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen",
+			"ComponentName":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen  /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen",
+			"ComponentName":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen  /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen",
+			"ComponentName":"Beiträge zur Wirtschaftsverb. und Berufsvertretungen /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Verluste aus Schadensfällen",
+			"ComponentName":"Verluste aus Schadensfällen /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Verluste aus Schadensfällen",
+			"ComponentName":"Verluste aus Schadensfällen /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Verluste aus Schadensfällen",
+			"ComponentName":"Verluste aus Schadensfällen /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Verluste aus Schadensfällen",
+			"ComponentName":"Verluste aus Schadensfällen /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Verluste aus dem Abg. von Vermögensgegenständen",
+			"ComponentName":"Verluste aus dem Abg. von Vermögensgegenständen /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Verluste aus dem Abg. von Vermögensgegenständen",
+			"ComponentName":"Verluste aus dem Abg. von Vermögensgegenständen /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Verluste aus dem Abg. von Vermögensgegenständen",
+			"ComponentName":"Verluste aus dem Abg. von Vermögensgegenständen /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Verluste aus dem Abg. von Vermögensgegenständen",
+			"ComponentName":"Verluste aus dem Abg. von Vermögensgegenständen /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zuführung zu Rückstellungen für Gewährleistungen",
+			"ComponentName":"Zuführung zu Rückstellungen für Gewährleistungen /Vertrieb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zuführung zu Rückstellungen für Gewährleistungen",
+			"ComponentName":"Zuführung zu Rückstellungen für Gewährleistungen /Logistik",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zuführung zu Rückstellungen für Gewährleistungen",
+			"ComponentName":"Zuführung zu Rückstellungen für Gewährleistungen /Verwaltung",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zuführung zu Rückstellungen für Gewährleistungen",
+			"ComponentName":"Zuführung zu Rückstellungen für Gewährleistungen /Produktion",
+			"Weight":1
+		},
+		{
+			"ParentName":"sonst. betr. Aufwendungen (GKV)",
+			"ComponentName":"Kostenverrechnung",
+			"Weight":1
+		},
+		{
+			"ParentName":"sonst. betr. Aufwendungen (GKV)",
+			"ComponentName":"Sonstige Aufwendungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Kostenverrechnung",
+			"ComponentName":"Aufwand Service Fees verb. Unt.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sonstige Aufwendungen",
+			"ComponentName":"Sonstige Aufwendgen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zinsen und ähnliche Aufwendungen",
+			"ComponentName":"Zinsaufwendungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zinsen und ähnliche Aufwendungen",
+			"ComponentName":"Sonstige zinsähnliche Aufwendungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Außerordentliche Aufwendungen (GKV)",
+			"ComponentName":"Außerordentliche Aufwendungen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Steuern vom Einkommen und Ertrag",
+			"ComponentName":"Gewerbeertragsteuer",
+			"Weight":1
+		},
+		{
+			"ParentName":"Steuern vom Einkommen und Ertrag",
+			"ComponentName":"Körperschaftsteuer (bei Kapitalgesellschaften)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Steuern vom Einkommen und Ertrag",
+			"ComponentName":"Kapitalertragssteuer (bei Kapitalgesellschaften)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Betriebliche Steuern",
+			"ComponentName":"Vermögenssteuer (nur bei Kapitalgesellschaften)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Betriebliche Steuern",
+			"ComponentName":"Grundsteuer",
+			"Weight":1
+		},
+		{
+			"ParentName":"Betriebliche Steuern",
+			"ComponentName":"Kraftfahrzeugsteuer",
+			"Weight":1
+		},
+		{
+			"ParentName":"Betriebliche Steuern",
+			"ComponentName":"Sonstige betriebl. Steuern",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

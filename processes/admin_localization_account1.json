@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"admin_localization_account1",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"admin_localization_account1.ti",
+	"UIData":"_ParameterConstraints=e30=\f",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

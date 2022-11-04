@@ -1,0 +1,35 @@
+{
+	"@type":"Cube",
+	"Name":"PCProductionPlan",
+	"Rules@Code.link":"PCProductionPlan.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('PCVersion')"
+		},
+		{
+			"@id":"Dimensions('PCRegion')"
+		},
+		{
+			"@id":"Dimensions('PCCustomerGroup')"
+		},
+		{
+			"@id":"Dimensions('PCMaterial')"
+		},
+		{
+			"@id":"Dimensions('PCMaterialResource')"
+		},
+		{
+			"@id":"Dimensions('PCTime')"
+		},
+		{
+			"@id":"Dimensions('PCProductionParameter')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"PCProductionPlan.views/Default.json",
+		"PCProductionPlan.views/View1.json",
+		"PCProductionPlan.views/View2.json"
+	]
+}

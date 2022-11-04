@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"OSPlanningEvent",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"OSPlanningEvent.hierarchies/OSPlanningEvent.json"
+	]
+}

@@ -1,0 +1,225 @@
+{
+	"@type":"NativeView",
+	"Name":"Default",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('FY19 Input')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('FY19 Total')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Apr 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Mai 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Jun 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Jul 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Aug 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Sep 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Okt 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Nov 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Dez 18')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Jan 19')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Feb 19')"
+					},
+					{
+						"@id":"Dimensions('OSPeriod')/Hierarchies('OSPeriod')/Elements('Mrz 19')"
+					}
+				]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSResource')/Hierarchies('OSResource')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Total Resources')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource1')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource2')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource3')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource4')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource5')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource6')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource7')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource8')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource9')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource10')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource11')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource12')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource13')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource14')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource15')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource16')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource17')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource18')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource19')"
+					},
+					{
+						"@id":"Dimensions('OSResource')/Hierarchies('OSResource')/Elements('Resource20')"
+					}
+				]
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')/Elements('FY18 Actual')"
+					},
+					{
+						"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')/Elements('FY18 Forecast')"
+					},
+					{
+						"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')/Elements('FY19 Budget')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('OSPlanningEvent')/Hierarchies('OSPlanningEvent')/Elements('FY19 Budget')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSVersion')/Hierarchies('OSVersion')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSVersion')/Hierarchies('OSVersion')/Elements('Base')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('OSVersion')/Hierarchies('OSVersion')/Elements('Base')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSCompany')/Hierarchies('OSCompany')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('OSCompany')/Hierarchies('OSCompany')/Elements('Total Companies')"
+					},
+					{
+						"@id":"Dimensions('OSCompany')/Hierarchies('OSCompany')/Elements('Company A')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('OSCompany')/Hierarchies('OSCompany')/Elements('Company A')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('OSResourceMeasure')/Hierarchies('OSResourceMeasure')"
+				},
+				"Expression":"TM1SubsetAll([OSResourceMeasure])"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('OSResourceMeasure')/Hierarchies('OSResourceMeasure')/Elements('Chargeable Hours')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.#########"
+}

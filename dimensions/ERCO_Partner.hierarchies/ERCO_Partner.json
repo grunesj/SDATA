@@ -1,0 +1,168 @@
+{
+	"@type":"Hierarchy",
+	"Name":"ERCO_Partner",
+	"Elements":
+	[
+		{
+			"Name":"Partner",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Partnerrolle 1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Partnerrolle 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Zielgruppe 1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Zielgruppe 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Zielgruppe 3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Zielgruppe 4",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Zielgruppe 5",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Kontakt 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kontakt 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kontakt 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kontakt 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kontakt 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kontakt 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kontakt 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kontakt 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kontakt 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kontakt 10",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Partner",
+			"ComponentName":"Partnerrolle 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Partner",
+			"ComponentName":"Partnerrolle 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Partnerrolle 1",
+			"ComponentName":"Zielgruppe 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Partnerrolle 1",
+			"ComponentName":"Zielgruppe 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Partnerrolle 2",
+			"ComponentName":"Zielgruppe 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Partnerrolle 2",
+			"ComponentName":"Zielgruppe 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Partnerrolle 2",
+			"ComponentName":"Zielgruppe 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zielgruppe 1",
+			"ComponentName":"Kontakt 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zielgruppe 1",
+			"ComponentName":"Kontakt 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zielgruppe 1",
+			"ComponentName":"Kontakt 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zielgruppe 2",
+			"ComponentName":"Kontakt 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zielgruppe 2",
+			"ComponentName":"Kontakt 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zielgruppe 3",
+			"ComponentName":"Kontakt 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zielgruppe 3",
+			"ComponentName":"Kontakt 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zielgruppe 4",
+			"ComponentName":"Kontakt 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zielgruppe 5",
+			"ComponentName":"Kontakt 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Zielgruppe 5",
+			"ComponentName":"Kontakt 10",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

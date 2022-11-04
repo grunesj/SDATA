@@ -1,0 +1,24 @@
+{
+	"@type":"Hierarchy",
+	"Name":"OSServiceLine",
+	"Elements":
+	[
+		{
+			"Name":"Service Line A",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Service Lines",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Service Lines",
+			"ComponentName":"Service Line A",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,247 @@
+{
+	"@type":"Hierarchy",
+	"Name":"OSPeriod",
+	"Elements":
+	[
+		{
+			"Name":"FY18 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY19 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mai 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Okt 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dez 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mrz 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY18 Total",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Apr 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mai 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Okt 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dez 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mrz 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY19 Total",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"FY18 Total",
+			"ComponentName":"Apr 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY18 Total",
+			"ComponentName":"Mai 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY18 Total",
+			"ComponentName":"Jun 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY18 Total",
+			"ComponentName":"Jul 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY18 Total",
+			"ComponentName":"Aug 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY18 Total",
+			"ComponentName":"Sep 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY18 Total",
+			"ComponentName":"Okt 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY18 Total",
+			"ComponentName":"Nov 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY18 Total",
+			"ComponentName":"Dez 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY18 Total",
+			"ComponentName":"Jan 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY18 Total",
+			"ComponentName":"Feb 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY18 Total",
+			"ComponentName":"Mrz 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 Total",
+			"ComponentName":"Apr 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 Total",
+			"ComponentName":"Mai 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 Total",
+			"ComponentName":"Jun 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 Total",
+			"ComponentName":"Jul 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 Total",
+			"ComponentName":"Aug 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 Total",
+			"ComponentName":"Sep 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 Total",
+			"ComponentName":"Okt 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 Total",
+			"ComponentName":"Nov 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 Total",
+			"ComponentName":"Dez 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 Total",
+			"ComponentName":"Jan 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 Total",
+			"ComponentName":"Feb 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 Total",
+			"ComponentName":"Mrz 19",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"OSPeriod.subsets/Budget.json",
+		"OSPeriod.subsets/Picklist.json"
+	]
+}

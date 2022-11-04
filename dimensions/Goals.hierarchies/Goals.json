@@ -1,0 +1,28 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Goals",
+	"Elements":
+	[
+		{
+			"Name":"CO2 Emissions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CO2e Reduction",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GHG Emission by Gas",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CO2e Compensation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"% CO2 R/E",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

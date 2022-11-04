@@ -1,0 +1,42 @@
+SKIPCHECK;
+
+['FY19 Budget',{'Name','Job Role'}]=S:IF(DB('OSResources','FY18 Actual',!OSVersion,!OSCompany,!OSResource,'FY18 Input',!OSResourceMeasure)@<>'',
+			DB('OSResources','FY18 Actual',!OSVersion,!OSCompany,!OSResource,'FY18 Input',!OSResourceMeasure),
+			STET);
+
+
+['FY19 Input','Salary']=STET;
+['Salary']=N:DB('OSResources',!OSPlanningEvent,!OSVersion,!OSCompany,!OSResource,SUBST(ELPAR('OSPeriod',!OSPeriod,1),1,4)|' Input',!OSResourceMeasure)\12;
+
+
+['Net Months']=N:IF(DIMIX('OSPeriod', !OSPeriod)<DIMIX('OSPeriod',DB('OSResources',!OSPlanningEvent,!OSVersion,!OSCompany,!OSResource,'FY19 Input','Start Month for New Hires')),
+			0,
+			1
+	);
+['Net Working Days']=N:DB('OSDerivation',!OSPlanningEvent,!OSVersion,!OSCompany,!OSPeriod,'Working Days')-DB('OSDerivation',!OSPlanningEvent,!OSVersion,!OSCompany,!OSPeriod,'Days Vacation');
+['Net Working Days %']=N:['Net Working Days']\['FY19 Total','Net Working Days'];
+
+['Net WD Month']=N:['Net Working Days']*['Net Months'];
+['Net WD Month %']=N:['Net WD Month']\['FY19 Total','Net WD Month'];
+
+['Max Chargeable Hours']=N:['Net Months']*['Net Working Days %']*DB('OSDerivation',!OSPlanningEvent,!OSVersion,!OSCompany,'FY19 Input','Total Hours per Resource');
+['FY19 Budget','FY19 Input','Chargeable Hours']=N:['FY19 Total','Max Chargeable Hours']*['Useful Billability %'];
+['FY19 Budget','Chargeable Hours']=N:['FY19 Input','Chargeable Hours']*['Net WD Month %'];
+
+['FY19 Budget','Revenue']=N:['Chargeable Hours']*['FY19 Input','Billing Rate (per Hour)'];
+
+
+FEEDERS;
+['FY19 Input']=>['FY19 Total'];
+['Useful Billability %']=>['Chargeable Hours'];
+['FY19 Input','Chargeable Hours']=>['FY19 Total'];
+['FY19 Input','Chargeable Hours']=>['FY19 Total','Net Working Days'];
+['FY19 Input','Chargeable Hours']=>['FY19 Total','Net Working Days %'];
+['FY19 Input','Chargeable Hours']=>['FY19 Total','Net WD Month'];
+['FY19 Input','Chargeable Hours']=>['FY19 Total','Net WD Month %'];
+['FY19 Input','Chargeable Hours']=>['FY19 Total','Net Months'];
+['FY19 Input','Chargeable Hours']=>['FY19 Total','Revenue'];
+['FY19 Input','Chargeable Hours']=>['FY19 Total','Max Chargeable Hours'];
+
+
+['Revenue']=>DB('OSProfitAndLoss',!OSPlanningEvent,!OSVersion,!OSCompany,!OSPeriod,'Labour Revenue','LC');

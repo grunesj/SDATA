@@ -1,0 +1,24 @@
+{
+	"@type":"Hierarchy",
+	"Name":"PCMaterialParameter",
+	"Elements":
+	[
+		{
+			"Name":"DurationPerUnit",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"UnitsPerTime",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CostPerTime",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CostPerUnit",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

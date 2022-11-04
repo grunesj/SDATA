@@ -1,0 +1,72 @@
+{
+	"@type":"Hierarchy",
+	"Name":"PCRegion",
+	"Elements":
+	[
+		{
+			"Name":"Total Region",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"R1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"R11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"R12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"R2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"R3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"R4",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Region",
+			"ComponentName":"R1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Region",
+			"ComponentName":"R2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Region",
+			"ComponentName":"R3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Region",
+			"ComponentName":"R4",
+			"Weight":1
+		},
+		{
+			"ParentName":"R1",
+			"ComponentName":"R11",
+			"Weight":1
+		},
+		{
+			"ParentName":"R1",
+			"ComponentName":"R12",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"PCRegion.subsets/Default.json"
+	]
+}

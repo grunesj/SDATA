@@ -1,0 +1,13 @@
+SKIPCHECK;
+
+
+[PCRegion:'R12']=N: [PCRegion:'R11'];
+
+[PCMaterialParameter:'UnitsPerTime']=N:1\[PCMaterialParameter:'DurationPerUnit'];
+
+[PCMaterialParameter:'CostPerUnit']=N:[PCMaterialParameter:'UnitsPerTime']*[PCMaterialParameter:'CostPerTime'];
+
+FEEDERS;
+[PCRegion:'R11'] => [PCRegion:'R12'];
+[PCMaterialParameter:'DurationPerUnit'] => [PCMaterialParameter:'UnitsPerTime'];
+[PCMaterialParameter:'CostPerTime'] =>[PCMaterialParameter:'CostPerUnit'];

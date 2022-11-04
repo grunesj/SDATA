@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"PCRegion",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('PCRegion')/Hierarchies('PCRegion')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"PCRegion.hierarchies/PCRegion.json"
+	]
+}

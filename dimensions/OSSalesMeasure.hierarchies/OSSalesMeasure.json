@@ -1,0 +1,12 @@
+{
+	"@type":"Hierarchy",
+	"Name":"OSSalesMeasure",
+	"Elements":
+	[
+		{
+			"Name":"Sales",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,10 @@
+{
+	"@type":"Chore",
+	"Name":"test123",
+	"StartTime":"2022-09-12T10:29:10Z",
+	"DSTSensitive":true,
+	"Active":false,
+	"ExecutionMode":"SingleCommit",
+	"Frequency":"P0DT00H00M00S",
+	"Tasks":[]
+}

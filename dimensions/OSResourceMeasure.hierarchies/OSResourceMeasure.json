@@ -1,0 +1,72 @@
+{
+	"@type":"Hierarchy",
+	"Name":"OSResourceMeasure",
+	"Elements":
+	[
+		{
+			"Name":"Chargeable Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Salary",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Name",
+			"Type":"String"
+		},
+		{
+			"Name":"Job Role",
+			"Type":"String"
+		},
+		{
+			"Name":"Start Month for New Hires",
+			"Type":"String"
+		},
+		{
+			"Name":"Useful Billability %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Billing Rate (per Hour)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"June % Increase",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"New Salary",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Net Working Days",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Net Working Days %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Net WD Month",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Net WD Month %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Net Months",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Max Chargeable Hours",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

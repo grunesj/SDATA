@@ -1,0 +1,65 @@
+{
+	"@type":"Hierarchy",
+	"Name":"OSDerivationMeasure",
+	"Elements":
+	[
+		{
+			"Name":"Standard Days",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Public Holidays",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Working Days",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Hours per day",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Vacation Days",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Vacation Profile",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Days Vacation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Subcontractor Mark-up",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"National Insurance %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pension %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Hours per Resource",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Working Days",
+			"ComponentName":"Standard Days",
+			"Weight":1
+		},
+		{
+			"ParentName":"Working Days",
+			"ComponentName":"Public Holidays",
+			"Weight":-1
+		}
+	],
+	"Subsets@Code.links":[]
+}

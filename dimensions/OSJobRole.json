@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"OSJobRole",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('OSJobRole')/Hierarchies('OSJobRole')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"OSJobRole.hierarchies/OSJobRole.json"
+	]
+}

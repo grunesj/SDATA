@@ -1,0 +1,24 @@
+{
+	"@type":"Hierarchy",
+	"Name":"OSPartner",
+	"Elements":
+	[
+		{
+			"Name":"Total Partners",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Partner A",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Partners",
+			"ComponentName":"Partner A",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

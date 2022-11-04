@@ -1,0 +1,195 @@
+{
+	"@type":"Hierarchy",
+	"Name":"OSResource",
+	"Elements":
+	[
+		{
+			"Name":"Total Resources",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Resource1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resource20",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Resources",
+			"ComponentName":"Resource20",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,176 @@
+{
+	"@type":"NativeView",
+	"Name":"Default",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('PCCustomerDemand')/Hierarchies('PCCustomerDemand')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('PCCustomerDemand')/Hierarchies('PCCustomerDemand')/Elements('Demand')"
+					}
+				]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('PCProducts')/Hierarchies('PCProducts')/Subsets('Default')"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('PCVersion')/Hierarchies('PCVersion')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('PCVersion')/Hierarchies('PCVersion')/Elements('V001')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('PCVersion')/Hierarchies('PCVersion')/Elements('V001')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('PCRegion')/Hierarchies('PCRegion')/Subsets('Default')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('PCRegion')/Hierarchies('PCRegion')/Elements('R11')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('PCCustomerGroup')/Hierarchies('PCCustomerGroup')/Subsets('Default')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('PCCustomerGroup')/Hierarchies('PCCustomerGroup')/Elements('CG005')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('PCTime')/Hierarchies('PCTime')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('2022')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q1 2022')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Jan 2022')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Feb 2022')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Mrz 2022')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q2 2022')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q3 2022')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q4 2022')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('2023')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q1 2023')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q2 2023')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q3 2023')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q4 2023')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('2024')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q1 2024')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q2 2024')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q3 2024')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q4 2024')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('2025')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q1 2025')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q2 2025')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q3 2025')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q4 2025')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('2026')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q1 2026')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q2 2026')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q3 2026')"
+					},
+					{
+						"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Q4 2026')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('PCTime')/Hierarchies('PCTime')/Elements('Jan 2022')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":true,
+	"SuppressEmptyRows":true,
+	"FormatString":"0.#########"
+}

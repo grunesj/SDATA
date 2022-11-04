@@ -1,0 +1,40 @@
+{
+	"@type":"Hierarchy",
+	"Name":"OSJobRole",
+	"Elements":
+	[
+		{
+			"Name":"Partner",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Technical Director",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Consultant Level 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Consultant Level 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Consultant Level 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Consultant Level 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Admin Level 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Admin Level 1",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

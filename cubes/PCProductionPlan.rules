@@ -1,0 +1,35 @@
+SKIPCHECK;
+[PCProductionParameter:'Demand']=N:IF ( !PCMaterial @= !PCMaterialResource,
+
+      DB( 'PCCustomerDemand', !PCVersion, !PCRegion, !PCCustomerGroup, !PCTime, !PCMaterial, 'Demand'  ),
+
+         DB('PCBillOfMaterial',!PCVersion,!PCMaterial,!PCMaterialResource)
+	* DB( 'PCProductionPlan', !PCVersion, !PCRegion, !PCCustomerGroup, !PCMaterial, !PCMaterial, !PCTime,'Demand'  )
+           	 \ DB( 'PCMaterialParameter', !PCVersion,  !PCRegion, !PCMaterial, 'UnitsPerTime'  )
+         	   * DB( 'PCMaterialParameter', !PCVersion, ATTRS( 'PCMaterial', !PCMaterialResource, 'Region'), !PCMaterialResource, 'UnitsPerTime'  )
+
+      );
+
+[PCProductionParameter:'ResourceNeeded']= N: IF ( (!PCMaterial @= !PCMaterialResource)
+	& DIMIX('PCRegion',ATTRS( 'PCMaterial', !PCMaterialResource, 'Region')) = DIMIX('PCRegion',!PCRegion)
+	& DIMIX('PCCustomerGroup',ATTRS( 'PCMaterial', !PCMaterialResource, 'Resource')) = DIMIX('PCCustomerGroup',!PCCustomerGroup)
+		,  ['Total Region','Total CG',PCMaterial:'Total Material','Demand']
+           		\ DB( 'PCMaterialParameter', !PCVersion, !PCRegion, !PCMaterialResource, 'UnitsPerTime')
+           		* DB( 'PCProductionResources', !PCVersion, !PCCustomerGroup, !PCMaterialResource, 'Resource'  )
+		, 0
+	);
+
+
+[PCProductionParameter:'Costs']  =N: ['Demand']*DB('PCMaterialParameter',!PCVersion,!PCRegion,!PCMaterial,'CostPerUnit');
+['Income']=N: IF ( !PCMaterial @= !PCMaterialResource,
+		DB('PCCustomerPlan',!PCVersion,!PCRegion,!PCCustomerGroup,!PCTime,'Amount')*[PCProductionParameter:'Demand']*DB('PCCustomerParameter',!PCVersion,!PCMaterial,!PCCustomerGroup,'IncomePerUnit'),
+        #DB('PCCustomerPlan',!PCVersion,!PCRegion,!PCCustomerGroup,!PCTime,'Amount')*DB('PCCustomerParameter',!PCVersion,!PCMaterial,!PCCustomerGroup,'IncomePerUnit'),
+		0
+	);
+
+FEEDERS;
+
+['Demand']=>DB(IF(!PCMaterial @= !PCMaterialResource,'PCProductionPlan',''),!PCVersion,!PCRegion,!PCCustomerGroup,!PCMaterial,!PCMaterialResource,!PCTime,'ResourceNeeded');
+['Demand']=>DB(IF(!PCMaterial @= !PCMaterialResource,'PCProductionPlan',''),!PCVersion,!PCRegion,!PCCustomerGroup,!PCMaterial,!PCMaterialResource,!PCTime,'Income');
+['Demand']=>  [PCProductionParameter:'Costs'];
+['ResourceNeeded']=>DB('PCCustomerPlan',!PCVersion,!PCRegion,!PCCustomerGroup,!PCTime,'Needed');

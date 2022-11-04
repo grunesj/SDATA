@@ -1,0 +1,24 @@
+{
+	"@type":"Hierarchy",
+	"Name":"OSCompany",
+	"Elements":
+	[
+		{
+			"Name":"Total Companies",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Company A",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Companies",
+			"ComponentName":"Company A",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

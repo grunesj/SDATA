@@ -1,0 +1,8 @@
+SKIPCHECK;
+
+FEEDERS;
+#[]=>DB('PCProductionPlan',!PCVersion,'Total Region','Total CG',!PCMaterial,!PCMaterialResource,'2022','DemandFeeder');
+
+[]=>DB('PCProductionPlan',!PCVersion,ATTRS( 'PCMaterial', !PCMaterial, 'Region'),ATTRS( 'PCMaterial', !PCMaterial, 'Resource'),!PCMaterial,!PCMaterialResource,'Years','Demand');
+[]=>DB('PCProductionPlan',!PCVersion,ATTRS( 'PCMaterial', !PCMaterial, 'Region'),ATTRS( 'PCMaterial', !PCMaterial, 'Resource'),!PCMaterial,!PCMaterial,'Years','Demand');
+[]=>DB('PCProductionPlan',!PCVersion,ATTRS( 'PCMaterial', !PCMaterialResource, 'Region'),ATTRS( 'PCMaterial', !PCMaterialResource, 'Resource'),!PCMaterialResource,!PCMaterialResource,'Years', 'ResourceNeeded');

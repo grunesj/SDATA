@@ -1,0 +1,13 @@
+#region Prolog
+MinorErrorLogMax = -1;
+OnMinorErrorDoItemSkip = 1;
+SetInputCharacterSet('TM1CS_UTF8');
+vType='N';
+vWeightNum=1.0;
+DimensionCreate('Goals');
+#endregion
+#region Metadata
+If(vLevel0@<>'');
+HierarchyElementInsert('Goals','Goals','',vLevel0,vType);
+EndIf;
+#endregion

@@ -1,0 +1,134 @@
+{
+	"@type":"Hierarchy",
+	"Name":"ERCO_Produkt",
+	"Elements":
+	[
+		{
+			"Name":"Gattung 1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Gattung 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Familie 1.1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Familie 1.2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Hierarchie 1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Hierarchie 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Artikel 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Artikel 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Artikel 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gattungen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Hierarchien",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Familien",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Gattung 1",
+			"ComponentName":"Artikel 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gattung 1",
+			"ComponentName":"Artikel 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gattung 2",
+			"ComponentName":"Artikel 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Familie 1.1",
+			"ComponentName":"Artikel 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Familie 1.1",
+			"ComponentName":"Artikel 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Familie 1.2",
+			"ComponentName":"Artikel 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Hierarchie 1",
+			"ComponentName":"Artikel 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Hierarchie 2",
+			"ComponentName":"Artikel 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Hierarchie 2",
+			"ComponentName":"Artikel 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gattungen",
+			"ComponentName":"Gattung 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gattungen",
+			"ComponentName":"Gattung 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Hierarchien",
+			"ComponentName":"Hierarchie 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Hierarchien",
+			"ComponentName":"Hierarchie 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Familien",
+			"ComponentName":"Familie 1.1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Familien",
+			"ComponentName":"Familie 1.2",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

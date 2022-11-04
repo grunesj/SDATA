@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"ERCO_Periode",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('ERCO_Periode')/Hierarchies('ERCO_Periode')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"ERCO_Periode.hierarchies/ERCO_Periode.json"
+	]
+}

@@ -1,0 +1,249 @@
+{
+	"@type":"Hierarchy",
+	"Name":"OSAccount",
+	"Elements":
+	[
+		{
+			"Name":"Labour Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Subcontractor Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gross Revenue",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Project costs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Net Revenue",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Staff Salary",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Social Security",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pension",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Training Costs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Recruitment",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other Staff Costs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Staff Costs",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Marketing Conferences",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Marketing travel & accommodation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Marketing Costs",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Admin travel & accommodation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Professional Services",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other Admin",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Admin Costs",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Telephone",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Rent",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IT Expenses",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Depreciation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Group Costs (4%)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Other Costs",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Total Costs",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Profit before bonus, interest & tax",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Gross Revenue",
+			"ComponentName":"Labour Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gross Revenue",
+			"ComponentName":"Subcontractor Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"Net Revenue",
+			"ComponentName":"Gross Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"Net Revenue",
+			"ComponentName":"Project costs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Staff Costs",
+			"ComponentName":"Staff Salary",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Staff Costs",
+			"ComponentName":"Social Security",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Staff Costs",
+			"ComponentName":"Pension",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Staff Costs",
+			"ComponentName":"Training Costs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Staff Costs",
+			"ComponentName":"Recruitment",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Staff Costs",
+			"ComponentName":"Other Staff Costs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Marketing Costs",
+			"ComponentName":"Marketing Conferences",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Marketing Costs",
+			"ComponentName":"Marketing travel & accommodation",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Admin Costs",
+			"ComponentName":"Admin travel & accommodation",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Admin Costs",
+			"ComponentName":"Professional Services",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Admin Costs",
+			"ComponentName":"Other Admin",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Other Costs",
+			"ComponentName":"Telephone",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Other Costs",
+			"ComponentName":"Rent",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Other Costs",
+			"ComponentName":"IT Expenses",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Other Costs",
+			"ComponentName":"Depreciation",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Other Costs",
+			"ComponentName":"Group Costs (4%)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Costs",
+			"ComponentName":"Total Staff Costs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Costs",
+			"ComponentName":"Total Marketing Costs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Costs",
+			"ComponentName":"Total Admin Costs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Costs",
+			"ComponentName":"Total Other Costs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Profit before bonus, interest & tax",
+			"ComponentName":"Net Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"Profit before bonus, interest & tax",
+			"ComponentName":"Total Costs",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

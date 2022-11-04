@@ -1,0 +1,20 @@
+{
+	"@type":"Hierarchy",
+	"Name":"measure",
+	"Elements":
+	[
+		{
+			"Name":"Users",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Subscription",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Comment",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":[]
+}

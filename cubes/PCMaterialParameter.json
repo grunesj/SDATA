@@ -1,0 +1,21 @@
+{
+	"@type":"Cube",
+	"Name":"PCMaterialParameter",
+	"Rules@Code.link":"PCMaterialParameter.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('PCVersion')"
+		},
+		{
+			"@id":"Dimensions('PCRegion')"
+		},
+		{
+			"@id":"Dimensions('PCMaterial')"
+		},
+		{
+			"@id":"Dimensions('PCMaterialParameter')"
+		}
+	],
+	"Views@Code.links":[]
+}

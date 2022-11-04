@@ -1,0 +1,20 @@
+SKIPCHECK;
+
+# Blend Actuals into forecast
+['FY18 Forecast','LC']=N:IF(DIMIX('OSPeriod', !OSPeriod)<DIMIX('OSPeriod','Dez 17'), ['FY18 Actual'],STET);
+
+#Connect P&L with Input Data and Resources
+['Labour Revenue','LC']=N:DB('OSResources',!OSPlanningEvent,!OSVersion,!OSCompany,'Total Resources',!OSPeriod,'Revenue');
+['Subcontractor Revenue','LC']=N:DB('OSDerivation',!OSPlanningEvent,!OSVersion,!OSCompany,'FY19 Input','Subcontractor Mark-up')*['Project costs'];
+
+['Staff Salary','LC']=N:DB('OSResources',!OSPlanningEvent,!OSVersion,!OSCompany,'Total Resources',!OSPeriod,'Salary');
+['Social Security','LC']=N:['Staff Salary']*DB('OSDerivation',!OSPlanningEvent,!OSVersion,!OSCompany,'FY19 Input','National Insurance %');
+['Pension','LC']=N:['Staff Salary']*DB('OSDerivation',!OSPlanningEvent,!OSVersion,!OSCompany,'FY19 Input','Pension %');
+
+
+
+FEEDERS;
+
+['FY18 Actual','LC']=>['FY18 Forecast'];
+
+['Project costs']=>['Subcontractor Revenue'];

@@ -1,0 +1,12 @@
+{
+	"@type":"Hierarchy",
+	"Name":"PCPreductionRecource",
+	"Elements":
+	[
+		{
+			"Name":"Resource",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

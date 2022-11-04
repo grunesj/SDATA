@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"TestHierarchy",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"TestHierarchy.ti",
+	"UIData":"_ParameterConstraints=e30=\f",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

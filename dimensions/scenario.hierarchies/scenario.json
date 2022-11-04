@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"scenario",
+	"Elements":
+	[
+		{
+			"Name":"ACT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FC",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

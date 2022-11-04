@@ -1,0 +1,42 @@
+{
+	"@type":"Hierarchy",
+	"Name":"OSSector",
+	"Elements":
+	[
+		{
+			"Name":"Chemical",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oil & Gas",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total",
+			"ComponentName":"Chemical",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total",
+			"ComponentName":"Oil & Gas",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total",
+			"ComponentName":"Other",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

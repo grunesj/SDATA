@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"OSSector",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('OSSector')/Hierarchies('OSSector')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"OSSector.hierarchies/OSSector.json"
+	]
+}

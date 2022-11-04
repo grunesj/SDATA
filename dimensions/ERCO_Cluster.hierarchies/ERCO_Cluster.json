@@ -1,0 +1,204 @@
+{
+	"@type":"Hierarchy",
+	"Name":"ERCO_Cluster",
+	"Elements":
+	[
+		{
+			"Name":"Auftrag 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Auftrag 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Auftrag 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Auftrag 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Auftrag 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Auftrag 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Auftrag 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Auftrag 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Auftrag 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cluster",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Cluster 1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Cluster 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Marktsegment 1.1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Marktsegment 1.2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Marktsegment 2.1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Marktsegment 2.2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Projekt A",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Projekt B",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Projekt C",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Project D",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Auftrag 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Projekt E",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Cluster",
+			"ComponentName":"Cluster 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cluster",
+			"ComponentName":"Cluster 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cluster 1",
+			"ComponentName":"Marktsegment 1.1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cluster 1",
+			"ComponentName":"Marktsegment 1.2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cluster 2",
+			"ComponentName":"Marktsegment 2.1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cluster 2",
+			"ComponentName":"Marktsegment 2.2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marktsegment 1.1",
+			"ComponentName":"Projekt A",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marktsegment 1.1",
+			"ComponentName":"Projekt B",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marktsegment 1.2",
+			"ComponentName":"Projekt C",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marktsegment 2.1",
+			"ComponentName":"Project D",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marktsegment 2.2",
+			"ComponentName":"Projekt E",
+			"Weight":1
+		},
+		{
+			"ParentName":"Projekt A",
+			"ComponentName":"Auftrag 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Projekt A",
+			"ComponentName":"Auftrag 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Projekt B",
+			"ComponentName":"Auftrag 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Projekt B",
+			"ComponentName":"Auftrag 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Projekt C",
+			"ComponentName":"Auftrag 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Projekt C",
+			"ComponentName":"Auftrag 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Project D",
+			"ComponentName":"Auftrag 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Projekt E",
+			"ComponentName":"Auftrag 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Projekt E",
+			"ComponentName":"Auftrag 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Projekt E",
+			"ComponentName":"Auftrag 10",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,18 @@
+{
+	"@type":"Cube",
+	"Name":"PCBillOfMaterial",
+	"Rules@Code.link":"PCBillOfMaterial.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('PCVersion')"
+		},
+		{
+			"@id":"Dimensions('PCMaterial')"
+		},
+		{
+			"@id":"Dimensions('PCMaterialResource')"
+		}
+	],
+	"Views@Code.links":[]
+}

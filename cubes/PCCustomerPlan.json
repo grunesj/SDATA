@@ -1,0 +1,27 @@
+{
+	"@type":"Cube",
+	"Name":"PCCustomerPlan",
+	"Rules@Code.link":"PCCustomerPlan.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('PCVersion')"
+		},
+		{
+			"@id":"Dimensions('PCRegion')"
+		},
+		{
+			"@id":"Dimensions('PCCustomerGroup')"
+		},
+		{
+			"@id":"Dimensions('PCTime')"
+		},
+		{
+			"@id":"Dimensions('PCCustomerMeasure')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"PCCustomerPlan.views/Default.json"
+	]
+}

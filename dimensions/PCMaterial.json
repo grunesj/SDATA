@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"PCMaterial",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('PCMaterial')/Hierarchies('PCMaterial')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"PCMaterial.hierarchies/PCMaterial.json"
+	]
+}

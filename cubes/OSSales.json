@@ -1,0 +1,35 @@
+{
+	"@type":"Cube",
+	"Name":"OSSales",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('OSPlanningEvent')"
+		},
+		{
+			"@id":"Dimensions('OSVersion')"
+		},
+		{
+			"@id":"Dimensions('OSCompany')"
+		},
+		{
+			"@id":"Dimensions('OSSector')"
+		},
+		{
+			"@id":"Dimensions('OSPartner')"
+		},
+		{
+			"@id":"Dimensions('OSServiceLine')"
+		},
+		{
+			"@id":"Dimensions('OSPeriod')"
+		},
+		{
+			"@id":"Dimensions('OSCurrency')"
+		},
+		{
+			"@id":"Dimensions('OSSalesMeasure')"
+		}
+	],
+	"Views@Code.links":[]
+}

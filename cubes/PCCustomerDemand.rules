@@ -1,0 +1,13 @@
+SKIPCHECK;
+
+[PCCustomerDemand:'Demand']=N: DB( 'PCCustomerPlan', !PCVersion, !PCRegion, !PCCustomerGroup, !PCTime, 'Amount' ) * DB( 'PCCustomerParameter', !PCVersion, !PCProducts, !PCCustomerGroup, 'DemandPerTime'  ) ;
+
+[PCCustomerDemand:'Income']=N: [PCCustomerDemand:'Demand']*DB( 'PCCustomerPlan', !PCVersion, !PCRegion, !PCCustomerGroup, !PCTime, 'Amount' ) * DB( 'PCCustomerParameter', !PCVersion,ATTRS('PCProducts',!PCProducts,'MaterialID'), !PCCustomerGroup, 'IncomePerUnit'  );
+
+[PCCustomerDemand:'Costs']=N: DB( 'PCProductionPlan', !PCVersion, !PCRegion, !PCCustomerGroup, ATTRS('PCProducts',!PCProducts,'MaterialID'), 'Total Material', !PCTime, 'Costs' );
+
+FEEDERS;
+
+[PCCustomerDemand:'Demand']=>DB( IF ([PCCustomerDemand:'Demand']>0,'PCProductionPlan',''), !PCVersion, !PCRegion, !PCCustomerGroup, ATTRS('PCProducts',!PCProducts,'MaterialID'),  ATTRS('PCProducts',!PCProducts,'MaterialID'), !PCTime, 'Demand');
+
+[PCCustomerDemand:'Demand']=>[PCCustomerDemand:'Income'], [PCCustomerDemand:'Costs'];

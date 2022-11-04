@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"PCTime",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('PCTime')/Hierarchies('PCTime')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"PCTime.hierarchies/PCTime.json"
+	]
+}

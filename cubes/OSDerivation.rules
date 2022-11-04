@@ -1,0 +1,2 @@
+['FY19 Input','Days Vacation']=STET;
+['Days Vacation']=N:['FY19 Input','Vacation Days']*['Vacation Profile'];

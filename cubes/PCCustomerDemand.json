@@ -1,0 +1,30 @@
+{
+	"@type":"Cube",
+	"Name":"PCCustomerDemand",
+	"Rules@Code.link":"PCCustomerDemand.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('PCVersion')"
+		},
+		{
+			"@id":"Dimensions('PCRegion')"
+		},
+		{
+			"@id":"Dimensions('PCCustomerGroup')"
+		},
+		{
+			"@id":"Dimensions('PCTime')"
+		},
+		{
+			"@id":"Dimensions('PCProducts')"
+		},
+		{
+			"@id":"Dimensions('PCCustomerDemand')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"PCCustomerDemand.views/Default.json"
+	]
+}

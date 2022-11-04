@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"ERCO_Konten",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('ERCO_Konten')/Hierarchies('ERCO_Konten')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"ERCO_Konten.hierarchies/ERCO_Konten.json"
+	]
+}

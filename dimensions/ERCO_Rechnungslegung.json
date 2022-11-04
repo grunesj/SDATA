@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"ERCO_Rechnungslegung",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('ERCO_Rechnungslegung')/Hierarchies('ERCO_Rechnungslegung')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"ERCO_Rechnungslegung.hierarchies/ERCO_Rechnungslegung.json"
+	]
+}
