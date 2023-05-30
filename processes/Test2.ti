@@ -6,7 +6,7 @@
 #****Begin: Generated Statements***
 #****End: Generated Statements****
 
-DimensionElementInsert( 'accoun', '',  'Test', 'N' );
+#######DimensionElementInsert( 'accoun', '',  'Test', 'N' );
 
 #endregion
 #region Data
